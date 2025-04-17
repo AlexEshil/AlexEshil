@@ -4,7 +4,7 @@
 - 🌱 I’m learning Python, machine learning, trading strategies, and ASP.NET MVC
 - 💬 Ask me about: technical analysis (RSI, EMA, MACD), RandomForest, Telegram bots, Python ↔ C# integration
 - 📫 How to reach me: Just call me 😎
-- 🤓 Fun fact: When my algorithm hits a perfect signal I yell: *"Blya, vot eto raketa!" 🚀*
+- 🤓 Fun fact: When my algorithm hits a perfect signal I yell: *"Take money 🚀*
 
 ---
 
