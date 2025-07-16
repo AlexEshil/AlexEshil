@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ei6/ue3YZI0+MfrMnCgtG9MGcjfvCP42C7U+RWu+qG1KeDmmr7M0Ic0UOMRAx3cSjouomrTAXaYNisErjng4hQ==",
+  "success": true,
+  "projectFilePath": "/Users/aleksandrsamojlenko/Desktop/Энерго/Energo/FieldApi/FieldApi/FieldApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/aleksandrsamojlenko/.nuget/packages/microsoft.aspnetcore.openapi/7.0.20/microsoft.aspnetcore.openapi.7.0.20.nupkg.sha512",
+    "/Users/aleksandrsamojlenko/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/aleksandrsamojlenko/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/aleksandrsamojlenko/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/aleksandrsamojlenko/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/aleksandrsamojlenko/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/aleksandrsamojlenko/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
