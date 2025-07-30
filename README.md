@@ -1,17 +1,12 @@
-# 👋 Hi, I’m AlexEshil
+👋 Hi, I’m AlexEshil
+🔨 Currently building PM24 — корпоративную платформу для управления строительными проектами на ASP.NET и SQL Server
 
-- 🔭 Currently working on **Finro** — an ML-powered trading system using Python and .NET
-- 🌱 I’m learning Python, machine learning, trading strategies, and ASP.NET MVC
-- 💬 Ask me about: technical analysis (RSI, EMA, MACD), RandomForest, Telegram bots, Python ↔ C# integration
-- 📫 How to reach me: Just call me 😎
-- 🤓 Fun fact: When my algorithm hits a perfect signal I yell: *"Take money" 🚀*
+🛠 Стек: ASP.NET Core MVC, Entity Framework, SQL Server, чуть-чуть магии на Python
 
----
+💬 Спрашивай про: C#, архитектуру CRUD-приложений, автоматизацию через Entity Framework, жизненные костыли и лайфхаки в .NET
 
-The `Finro` project is currently private, but I’ll be releasing parts of it soon — stay tuned!
+🤝 Ищу единомышленников, чтобы не было так скучно дебажить на проде
 
+📫 Связь: Telegram — или просто напиши сюда, отвечаю быстро!
 
-<!---
-AlexEshil/AlexEshil is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+🤓 Факт: Если что-то не билдится с первого раза, значит, так и задумано (почти всегда)
