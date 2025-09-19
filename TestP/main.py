@@ -80,7 +80,7 @@ class TelegramChannel:
                 return DeliveryResult(False, "telegram_api_error", details=payload)
         except Exception as e:
             return DeliveryResult(False, "telegram_http_error", details=str(e))
-# SMS канал (заглушка или HTTP-провайдер)
+# SMS канал 
 class SmsChannel:
     name = "sms"
     def __init__(self) -> None:
@@ -91,7 +91,6 @@ class SmsChannel:
     def send(self, user: User, subject: str, body: str, timeout_sec: float = 5.0) -> DeliveryResult:
         if not self.available_for(user):
             return DeliveryResult(False, "sms_missing_recipient")
-        # Моковый режим (без внешних зависимостей)
         if not self.endpoint or not self.token:
             # имитация успеха
             print(f"[SMS MOCK] to={user.phone} subj={subject!r} body={body!r}")
@@ -129,7 +128,7 @@ class Deduper:
         k = self._key(user, subject, body)
         now = time.time()
         with self._lock:
-            # очистка протухших
+            # очистка 
             for kk, ts in list(self._store.items()):
                 if now - ts > self._ttl:
                     del self._store[kk]
@@ -155,7 +154,6 @@ class NotificationService:
         self.base_sleep = base_retry_sleep_sec
         self.deduper = Deduper(ttl_sec=dedupe_ttl_sec)
     def notify(self, user: User, subject: str, body: str) -> Tuple[bool, str]:
-        # Идемпотентность
         if self.deduper.seen(user, subject, body):
             return True, "duplicate_suppressed"
 
@@ -173,10 +171,8 @@ class NotificationService:
                 if res.ok:
                     return True, f"{ch_name}:{res.provider_status}"
                 last_err = f"{ch_name}:{res.provider_status} ({res.details})" if res.details else f"{ch_name}:{res.provider_status}"
-                # экспоненциальный бэк-офф
                 sleep_for = self.base_sleep * (2 ** attempt)
                 time.sleep(min(sleep_for, 10.0))
-            # если канал исчерпал ретраи — переходим к следующему
         return False, f"all_channels_failed; last={last_err or 'none'}"
 # Демонстрация
 def _demo():
